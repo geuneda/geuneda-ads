@@ -1,0 +1,36 @@
+{
+    "name": "Geuneda.Ads.Analytics.Tests.EditMode",
+    "rootNamespace": "",
+    "references": [
+        "UnityEngine.TestRunner",
+        "UnityEditor.TestRunner",
+        "Geuneda.Core",
+        "Geuneda.Ads",
+        "Geuneda.Ads.Tests.EditMode",
+        "Geuneda.Ads.Analytics",
+        "Geuneda.Analytics",
+        "UniTask"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "nunit.framework.dll"
+    ],
+    "autoReferenced": false,
+    "defineConstraints": [
+        "UNITY_INCLUDE_TESTS",
+        "GEUNEDA_ADS_ANALYTICS"
+    ],
+    "versionDefines": [
+        {
+            "name": "com.geuneda.analytics",
+            "expression": "0.2.0",
+            "define": "GEUNEDA_ADS_ANALYTICS"
+        }
+    ],
+    "noEngineReferences": false
+}

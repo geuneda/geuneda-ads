@@ -1,0 +1,15 @@
+{
+  "name": "com.geuneda.ads",
+  "displayName": "Geuneda Ads",
+  "author": "geuneda",
+  "version": "0.1.0",
+  "unity": "2021.3",
+  "license": "MIT",
+  "description": "보상형·전면 광고 서비스입니다. 표시 요청마다 결과를 한 번만 확정하고(보상 받음은 성공, 보상 없이 닫음·표시 실패·시간 초과·준비 안 됨은 결과 코드), SDK 가 종료 콜백을 주지 않아도 시간 초과 판정으로 끝내 다음 광고가 막히지 않게 합니다. 시간 초과 뒤 늦게 온 보상은 별도 이벤트로 넘겨 게임이 지급을 정하고, 앞 광고의 늦은 콜백을 광고 식별 값으로 걸러 다음 광고에 섞이지 않게 합니다. 로드 실패는 2초부터 두 배씩 30초까지 기다렸다 다시 불러옵니다. 미디에이션 SDK 는 어댑터 패키지(com.geuneda.ads.max: AppLovin MAX)로 붙이고, analytics 가 있으면 노출 수익을 광고 노출 표준 이벤트로 기록합니다.",
+  "type": "library",
+  "hideInEditor": false,
+  "dependencies": {
+    "com.geuneda.core": "0.4.0",
+    "com.cysharp.unitask": "2.5.10"
+  }
+}

@@ -1,0 +1,26 @@
+{
+    "name": "Geuneda.Ads.Analytics",
+    "rootNamespace": "Geuneda.Ads.Analytics",
+    "references": [
+        "Geuneda.Ads",
+        "Geuneda.Analytics",
+        "Geuneda.Core"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [
+        "GEUNEDA_ADS_ANALYTICS"
+    ],
+    "versionDefines": [
+        {
+            "name": "com.geuneda.analytics",
+            "expression": "0.2.0",
+            "define": "GEUNEDA_ADS_ANALYTICS"
+        }
+    ],
+    "noEngineReferences": false
+}
